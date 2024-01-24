@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import TestComp from './Components/FunctionComponents/TestComp';
-
+import TestComp from './components/functionalComponents/TestComp';
+import ReiteratorComp from './components/classComponents/Classcomp';
 
 function App() {
   return (
     <div className="App">
+      <ReiteratorComp/>
       <header className="App-header">
-        <TestComp/>
+      <TestComp/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React by visva 
         </a>
       </header>
     </div>

@@ -4,7 +4,7 @@ import { ReactDOM } from "react";
 function TestComp(){
     return(
         <div>
-            <h1>This is a test Functional component.</h1>
+            <h1>This is a test Functional component Hola.</h1>
         </div>
     );
 }
