@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import TestComp from './components/functionalComponents/TestComp';
-import ReiteratorComp from './components/classComponents/Classcomp';
+import ReiteratorComp from './Components/ClassComponents/Classcomp';
 
 function App() {
   return (
