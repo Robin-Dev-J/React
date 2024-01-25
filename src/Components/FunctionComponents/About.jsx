@@ -1,7 +1,7 @@
 const About = () =>{
     return(
         <div>
-            <h1>This page is ment for your details.</h1>
+            <h1>This page is meant for your details.</h1>
         </div>
     )
 }

@@ -3,5 +3,12 @@ ol{
     justify-content: space-evenly;
     list-style-type: none;
     background-color:aqua;
+    color: aliceblue;
     margin: 0px;
+    border: solid black;
 }
+/* ol:hover
+{
+    background-color: #ffffff;background-image: linear-gradient(-300deg, #ffffff 0%, #5899e2 74%);
+    margin: 0px;
+} */
