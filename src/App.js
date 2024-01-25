@@ -4,15 +4,15 @@ import TestComp from './Components/FunctionComponents/TestComp'
 import ReiteratorComp from './Components/ClassComponents/Classcomp';
 import PropsComponent from './Components/FunctionComponents/PropsComponent';
 import StateComponent from './Components/ClassComponents/StateComponent';
+import NavBar from './Components/FunctionComponents/NavBar';
 function App() {
   return (
     <div className="App">
-      <PropsComponent name="robin" course="Mern" />   
-      <ReiteratorComp/>
+     
+      <NavBar/>
       <header className="App-header">
         
       <TestComp/>
-      
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <b>
@@ -28,8 +28,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <br></br>
       <body>
         <div class="container"><StateComponent/></div>
+        <br></br>
+       
+        <div class="container">
+      <PropsComponent name="robin" course="Mern" />   
+      <ReiteratorComp/>
+      </div>
       </body>
       <footer>
         <div class="footer1">

@@ -1,3 +1,4 @@
+import './PropsComponent.css';
 function PropsComponent(props)
 {
     return (
