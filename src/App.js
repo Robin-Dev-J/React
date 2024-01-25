@@ -1,48 +1,28 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import TestComp from './Components/FunctionComponents/TestComp'
-import ReiteratorComp from './Components/ClassComponents/Classcomp';
-import PropsComponent from './Components/FunctionComponents/PropsComponent';
-import StateComponent from './Components/ClassComponents/StateComponent';
+// import TestComp from './Components/FunctionComponents/TestComp'
+// import ReiteratorComp from './Components/ClassComponents/Classcomp';
+// import PropsComponent from './Components/FunctionComponents/PropsComponent';
+// import StateComponent from './Components/ClassComponents/StateComponent';
+import Experience from './Components/FunctionComponents/Experience';
+import Home from './Components/FunctionComponents/Home';
+import About from './Components/FunctionComponents/About';
+import Login from './Components/FunctionComponents/Login';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './Components/FunctionComponents/NavBar';
 function App() {
   return (
     <div className="App">
-     
-      <NavBar/>
-      <header className="App-header">
-        
-      <TestComp/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <b>
-          Edit <code>src/App.js</code> and save to reload.
-          </b>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <br></br>
-      <body>
-        <div class="container"><StateComponent/></div>
-        <br></br>
-       
-        <div class="container">
-      <PropsComponent name="robin" course="Mern" />   
-      <ReiteratorComp/>
-      </div>
-      </body>
-      <footer>
-        <div class="footer1">
-      &copy; 2024 React. All rights reserved.
-      </div>
-      </footer>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/experience" element={<Experience />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+        </Routes>
+      </BrowserRouter>
+      {/* <PropsComponent name="KEC" course="MERN"/> */}
     </div>
   );
 }
