@@ -13,7 +13,9 @@ function App() {
       <TestComp/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          <b>
           Edit <code>src/App.js</code> and save to reload.
+          </b>
         </p>
         <a
           className="App-link"
@@ -21,9 +23,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React form Robin
+          Learn React
         </a>
       </header>
+      <footer>
+        <div class="footer1">
+      &copy; 2024 React. All rights reserved
+      </div>
+      </footer>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from "react";
 function TestComp(){
     return(
         <div>
-            <h1>Camera Wowo.</h1>
+            <h1>This is TestComp Function.</h1>
         </div>
     );
 }

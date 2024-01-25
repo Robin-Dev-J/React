@@ -4,6 +4,7 @@ function PropsComponent(props)
         <div>
             Hello, {props.name} This is {props.course} class
         </div>
+        
     )
 }
 
