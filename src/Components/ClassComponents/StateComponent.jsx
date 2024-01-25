@@ -14,7 +14,7 @@ class StateComponent extends React.Component {
     render() {
         return (
             <div>
-                <h1>This is Statement Componenet</h1>
+                <h1>This is Statement Component</h1>
                 <h2> Hello, {this.state.name}<br></br> he is {this.state.course}</h2>
                 <h3>I am Changing the State of {this.state.name} to {this.changeState}</h3>
                 <button onClick={this.changeState}>Click me to change the state</button>
