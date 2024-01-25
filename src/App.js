@@ -2,10 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import TestComp from './Components/FunctionComponents/TestComp'
 import ReiteratorComp from './Components/ClassComponents/Classcomp';
+import PropsComponent from './Components/FunctionComponents/PropsComponent';
 
 function App() {
   return (
     <div className="App">
+      <PropsComponent name="robin" course="Mern" /> 
       <ReiteratorComp/>
       <header className="App-header">
       <TestComp/>
