@@ -2,10 +2,12 @@ ol{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color:aqua;
+    background-color:#f4f4f4;
     color: aliceblue;
     margin: 0px;
     border: solid black;
+    position: relative;
+    top:0
 }
 /* ol:hover
 {
