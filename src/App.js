@@ -3,14 +3,16 @@ import './App.css';
 import TestComp from './Components/FunctionComponents/TestComp'
 import ReiteratorComp from './Components/ClassComponents/Classcomp';
 import PropsComponent from './Components/FunctionComponents/PropsComponent';
-
+import StateComponent from './Components/ClassComponents/StateComponent';
 function App() {
   return (
     <div className="App">
-      <PropsComponent name="robin" course="Mern" /> 
+      <PropsComponent name="robin" course="Mern" />   
       <ReiteratorComp/>
       <header className="App-header">
+        
       <TestComp/>
+      
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <b>
@@ -26,9 +28,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <div class="container"><StateComponent/></div>
+      </body>
       <footer>
         <div class="footer1">
-      &copy; 2024 React. All rights reserved
+      &copy; 2024 React. All rights reserved.
       </div>
       </footer>
     </div>

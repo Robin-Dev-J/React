@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: antiquewhite;
 }
 
 .App-logo {
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: bisque;
 }
 
 @keyframes App-logo-spin {
@@ -35,6 +36,7 @@
   }
   to {
     transform: rotate(360deg) scale(1);
+    
   }
 }
 
@@ -42,4 +44,15 @@
 {
   background-color: black;
   color: white;
+}
+
+.container
+{
+  background-color: beige;
+  border: 1px solid chocolate;
+}
+
+.container:hover
+{
+background-color: bisque;
 }
