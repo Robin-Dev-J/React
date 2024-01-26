@@ -14,9 +14,12 @@ import Footer from './Components/FunctionComponents/footer';
 function App() {
   return (
     <div className="App">
+      
       <BrowserRouter>
         <NavBar />
+       
         <Routes>
+        
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
@@ -26,8 +29,9 @@ function App() {
       {/* <PropsComponent name="KEC" course="MERN"/> */}
       <Footer/>
       <body>
-        <div class="cont"><img src={logo} className="App-logo" alt="logo" />
-        <h1>Welcome To Our Website!!</h1></div>
+        
+        
+         <div class="cont"><img src={logo} className="App-logo" alt="logo" /></div>
       
     </body>
     </div>

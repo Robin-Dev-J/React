@@ -5,12 +5,30 @@ ol{
     background-color:#f4f4f4;
     color: aliceblue;
     margin: 0px;
+    padding: 10px;
     border: solid black;
     position: relative;
-    top:0
+    top:0;
 }
-/* ol:hover
+
+
+li
 {
-    background-color: #ffffff;background-image: linear-gradient(-300deg, #ffffff 0%, #5899e2 74%);
+
+font-family: 'Times New Roman', Times, serif;
+
+}
+li a{
+    color:black;
+    text-decoration: none;
+}
+li:hover{
+    transform: scale(1.2);
     margin: 0px;
-} */
+}
+li a:hover
+{
+    color:red;
+}
+
+

@@ -34,11 +34,11 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg) scale(0.5);
+    transform: rotate(0deg) scale(0.5) ;
     
   }
   to {
-    transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1.2);
     
   }
 }
@@ -71,5 +71,5 @@ background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
 .cont{
 background-color: rgba(0, 0, 0);
 color:aqua;
-text-align: center;
+
 }
