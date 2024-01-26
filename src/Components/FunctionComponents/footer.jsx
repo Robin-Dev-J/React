@@ -9,13 +9,14 @@ const Footer = () => {
 };
 
 const footerStyle = {
-  backgroundColor: '#f4f4f4',
+  backgroundColor: 'black',
   padding: '10px',
   textAlign: 'center',
   position:"fixed",
   bottom:"0",
   width:"100%",
   border: '2px solid black',
+  color:'white'
 };
 
 export default Footer;

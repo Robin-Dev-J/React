@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
 // import TestComp from './Components/FunctionComponents/TestComp'
 // import ReiteratorComp from './Components/ClassComponents/Classcomp';
 // import PropsComponent from './Components/FunctionComponents/PropsComponent';
 // import StateComponent from './Components/ClassComponents/StateComponent';
+import './App.css';
 import Experience from './Components/FunctionComponents/Experience';
 import Home from './Components/FunctionComponents/Home';
 import About from './Components/FunctionComponents/About';
@@ -14,12 +14,11 @@ import Footer from './Components/FunctionComponents/footer';
 function App() {
   return (
     <div className="App">
-      
+
       <BrowserRouter>
         <NavBar />
-       
+
         <Routes>
-        
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
@@ -27,15 +26,12 @@ function App() {
         </Routes>
       </BrowserRouter>
       {/* <PropsComponent name="KEC" course="MERN"/> */}
-      <Footer/>
+      <Footer />
       <body>
-        
-        
-         <div class="cont"><img src={logo} className="App-logo" alt="logo" /></div>
-      
-    </body>
+        {/* <div class="cont"><img src={logo} className="App-logo" alt="logo" /></div> */}
+      </body>
     </div>
-    
+
 
   );
 }
