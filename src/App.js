@@ -26,10 +26,11 @@ function App() {
         </Routes>
       </BrowserRouter>
       {/* <PropsComponent name="KEC" course="MERN"/> */}
-      <Footer />
+      
       <body>
         {/* <div class="cont"><img src={logo} className="App-logo" alt="logo" /></div> */}
       </body>
+      <Footer />
     </div>
 
 
