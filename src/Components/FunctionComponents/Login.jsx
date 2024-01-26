@@ -2,7 +2,7 @@ import React from 'react';
 import './LoginForm.css'; 
 import { FaUser, FaLock } from "react-icons/fa";
 
-const LoginForm = () => {
+const Login = () => {
   return (
     <div className='wrapper'>
       <form action=''>
@@ -28,4 +28,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default Login;
