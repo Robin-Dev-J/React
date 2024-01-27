@@ -1,6 +1,6 @@
 import React from 'react';
-import './LoginForm.css';
 import { FaUser, FaLock } from "react-icons/fa";
+import './Login.css';
 
 const Login = () => {
   return (
