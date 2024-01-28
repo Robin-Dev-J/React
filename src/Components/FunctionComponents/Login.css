@@ -1,30 +1,38 @@
-
 .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
     background-image: url('login.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    border: 2px solid black;
+    padding: 30px 40px;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+    
   }
   
-  .form {
+  .wrapper .form {
     width: 300px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+    background: transparent; /* or set a specific background color */
+   
   }
   
-  .input-box {
+  .wrapper .input-box {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
   }
   
-  input {
+  .wrapper input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
@@ -33,22 +41,30 @@
     margin-right: 10px;
   }
   
-  .remember-forgot {
+  .wrapper .remember-forgot {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    justify-content:left;
+    margin: -15px 0 15px; 
   }
   
-  .remember-forgot label {
+  .wrapper .remember-forgot label {
     margin-left: -20px;
+    font-size: medium;
   }
   
-  .register-link {
+  .wrapper .register-link {
     margin-top: 10px;
     text-align: center;
   }
   
-  a {
+  .wrapper a {
     text-decoration: none;
+    color: blue; 
+    transition: color 0.3s ease; 
+    font-size: 14px;
   }
   
+  .wrapper a:hover {
+    color: red; 
+    transform: scale(1.01);
+  }

@@ -11,6 +11,7 @@ import Login from './Components/FunctionComponents/Login';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './Components/FunctionComponents/NavBar';
 import Footer from './Components/FunctionComponents/footer';
+import Reference from './Components/FunctionComponents/Reference';
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,10 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
-          <Route path="/login" element={<Login />}></Route>
+          <Route path="/Login" element={<Login />}></Route>
+          {/* <Route path="/Memo" element={<Memo />}></Route> */}
+          <Route path="/Reference" element={<Reference />}></Route>
+          
         </Routes>
       </BrowserRouter>
       {/* <PropsComponent name="KEC" course="MERN"/> */}

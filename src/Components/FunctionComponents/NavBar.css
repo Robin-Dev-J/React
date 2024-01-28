@@ -24,12 +24,14 @@ li a{
     
 }
 li:hover{
-    transform: scale(1.2);
+    transform: scale(1.2) translateY(-2px);
     margin: 0px;
+    
 }
 li a:hover
 {
     color:bisque;
+    
 }
 
 
