@@ -12,6 +12,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './Components/FunctionComponents/NavBar';
 import Footer from './Components/FunctionComponents/footer';
 import Reference from './Components/FunctionComponents/Reference';
+import Callback from './Components/FunctionComponents/Callback';
+import Memo from './Components/FunctionComponents/Memo';
 function App() {
   return (
     <div className="App">
@@ -24,8 +26,9 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
           <Route path="/Login" element={<Login />}></Route>
-          {/* <Route path="/Memo" element={<Memo />}></Route> */}
+          <Route path="/Callback" element={<Callback />}></Route>
           <Route path="/Reference" element={<Reference />}></Route>
+          <Route path="/Memo" element={<Memo />}></Route>
           
         </Routes>
       </BrowserRouter>
