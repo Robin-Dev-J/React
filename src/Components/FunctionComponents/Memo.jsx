@@ -24,7 +24,7 @@ const Memo = () => {
 
   return (
     <div>
-      This is a Dangerous hook which is called use Memo
+      <h1>This is a Dangerous hook which is called use Memo</h1>
       <br></br>
       <input
         type="number"

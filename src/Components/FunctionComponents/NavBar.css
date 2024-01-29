@@ -1,37 +1,33 @@
-ol{
+ol {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color:black;
+    background-color: black;
     color: aliceblue;
-    margin: 0px;
+    margin: 0;
     padding: 10px;
     border: solid black;
     position: relative;
-    top:0;
+    top: 0;
 }
 
-
-li
-{
-
-font-family: 'Times New Roman', Times, serif;
-
+li {
+    font-family: 'Times New Roman', Times, serif;
 }
-li a{
-    color:white;
+
+li a {
+    color: white;
     text-decoration: none;
-    
 }
-li:hover{
+
+
+li a:hover {
+    color: bisque;
     transform: scale(1.2) translateY(-2px);
-    margin: 0px;
-    
-}
-li a:hover
-{
-    color:bisque;
-    
+    margin: 0;
 }
 
-
+li a.active {
+    color: black;
+    background-color: white;
+}
