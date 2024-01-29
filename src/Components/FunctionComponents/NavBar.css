@@ -23,11 +23,8 @@ li a {
 
 li a:hover {
     color: bisque;
-    transform: scale(1.2) translateY(-2px);
-    margin: 0;
+    transform: scale(1.2);
+    
 }
 
-li a.active {
-    color: black;
-    background-color: white;
-}
+
