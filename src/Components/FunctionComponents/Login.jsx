@@ -2,6 +2,7 @@ import React from 'react';
 import { FaUser, FaLock } from "react-icons/fa";
 import './Login.css'
 
+
 const Login = () => {
   return (
     <>
@@ -36,7 +37,10 @@ const Login = () => {
           <br></br>
           <button type="submit">Login</button>
           <div className="register-link">
-            <p>Don't have an account? <a href='Register.jsx'>Sign Up</a></p>
+            <p>Don't have an account? 
+              <a href='Register.jsx'>Sign Up</a>
+             
+              </p>
           </div>
         </form>
         </div>

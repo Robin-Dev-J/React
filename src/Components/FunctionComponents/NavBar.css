@@ -6,7 +6,7 @@ ol {
     color: aliceblue;
     margin: 0;
     padding: 10px;
-    border: solid black;
+    border: 1px solid black; /* Added border style */
     position: relative;
     top: 0;
 }
@@ -20,11 +20,12 @@ li a {
     text-decoration: none;
 }
 
-
 li a:hover {
     color: bisque;
-    transform: scale(1.2);
-    
+    transform: scale(1.2) translateY(-2px);
 }
 
-
+li a.active {
+    color: black;
+    background-color: white;
+}
